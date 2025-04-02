@@ -1,0 +1,22 @@
+{
+    "biospecimen_dir": "biospecimen",
+    "clinical_dir": "clinical",
+    "target_col": "GENOTYPE",
+    "batch_size": 32,
+    "modality_drop_rate": 0.3,
+    "hidden_dims": [
+        256,
+        128,
+        64
+    ],
+    "fusion_dim": 32,
+    "dropout": 0.3,
+    "use_imputation": false,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "epochs": 100,
+    "early_stopping": 10,
+    "save_dir": "checkpoints",
+    "seed": 42,
+    "gpu": 0
+}
